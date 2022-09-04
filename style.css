@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+.masonry {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.masonry-item {
+  height: 200px;
+  flex-grow: 1; /* use this for masonry layout */
+  border-radius: 1rem;
+}
+
+img.masonry-item {
+  object-fit: cover;
+}
